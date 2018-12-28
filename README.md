@@ -10,7 +10,7 @@ The `.vimrc` setup is based on [https://github.com/amix/vimrc](https://github.co
 ## List of plugins:
 
 ### [vim-plug](https://github.com/junegunn/vim-plug)
-Vim plugin manager.
+Vim plugin manager. Use `:PlugInstall` inside vim to install all the plugins listed in `.vimrc`.
 
 ### [Goyo](https://github.com/junegunn/goyo.vim)
 Writes vim with no distraction.
@@ -58,7 +58,12 @@ Git wrapper.
     * `:Git ...`
 
 ### [ale](https://github.com/w0rp/ale)
-Linter that supports multiple languages using [LSP](https://langserver.org/)(Language Server Protocol)
+Linter that supports multiple languages using [LSP](https://langserver.org/)(Language Server Protocol).
+
+    * Typescript: one need to install typescript with `npm install -g typescript` for ale linter to work
+    * Golang: one need to install go executable for ale linter to work
+
+
 
 ### [vim-go](https://github.com/fatih/vim-go)
 Vim go plugins, some useful features:
@@ -68,6 +73,7 @@ Vim go plugins, some useful features:
     * `GoInstall!`: go install command that shows all the errors if any
     * `:GoBuild`: go build command
 > Note: completion is toggled by typing `ctrl-x ctrl-o`
+> Note: before using any of the features, make sure the go executable is installed and run `:GoInstallBinaries` inside vim
 
 ### [typescript-vim](https://github.com/leafgarland/typescript-vim)
 Typescript syntax highlight
