@@ -25,6 +25,11 @@ For MacOS, need to install ack with
     ```
     brew install ack
     ```
+For Ubuntu, need to install ack with
+    ```
+    apt-get install ack-grep
+    ```
+
 ### grip
 To preview markdown file in github style in terminal, installed with
     ```
