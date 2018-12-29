@@ -226,11 +226,21 @@ map <leader>l :bnext<cr>
 map <leader>h :bprevious<cr>
 
 " Useful mappings for managing tabs
-map <leader>tn :tabnew<cr>
+map <leader>tn :tabnew 
 map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove 
-map <leader>t<leader> :tabnext 
+map <leader>t1 :tabnext 1<cr>
+map <leader>t2 :tabnext 2<cr>
+map <leader>t3 :tabnext 3<cr>
+map <leader>t4 :tabnext 4<cr>
+map <leader>t5 :tabnext 5<cr>
+map <leader>t6 :tabnext 6<cr>
+map <leader>t7 :tabnext 7<cr>
+map <leader>t8 :tabnext 8<cr>
+map <leader>t9 :tabnext 9<cr>
+
+
 
 " Let 'tl' toggle between this and the last accessed tab
 let g:lasttab = 1
