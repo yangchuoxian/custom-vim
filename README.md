@@ -80,3 +80,4 @@ Typescript syntax highlight
 
 ### [tagbar](https://github.com/majutsushi/tagbar)
 A plugin that shows class outlines and functions/variables of a file, type :TagbarToggle to toggle the window.
+>Note: under ubuntu, remember to install exuberant-ctags with `apt install exuberant-ctags`.
