@@ -416,6 +416,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'w0rp/ale'
 Plug 'fatih/vim-go'
 Plug 'leafgarland/typescript-vim'
+Plug 'majutsushi/tagbar'
 call plug#end()
 
 " NERDTree setup
