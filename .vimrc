@@ -442,6 +442,9 @@ let g:user_emmet_expandabbr_key='<C-y>'
 " vim-commentary setup
 map <C-i> gcc
 
+" tagbar setup
+map <leader>c :TagbarToggle<cr>
+
 " ale setup
 let g:ale_completion_enabled=1
 
