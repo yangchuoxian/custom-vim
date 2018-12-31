@@ -38,7 +38,7 @@ To preview markdown file in github style in terminal, installed with
 
 ### [vim-markdown-preview](https://github.com/JamshedVesuna/vim-markdown-preview)
 
-To fast preview mardown file from vim, hotkey: ctrl-p
+To fast preview mardown file from vim, hotkey: ctrl-p.
 
 ### [emmet-vim](https://github.com/mattn/emmet-vim)
 
