@@ -417,6 +417,7 @@ Plug 'w0rp/ale'
 Plug 'fatih/vim-go'
 Plug 'leafgarland/typescript-vim'
 Plug 'majutsushi/tagbar'
+Plug 'mzlogin/vim-markdown-toc'
 call plug#end()
 
 " NERDTree setup
