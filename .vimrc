@@ -449,4 +449,7 @@ map <leader>c :TagbarToggle<cr>
 " ale setup
 let g:ale_completion_enabled=1
 
+" This one allows you to type '%' to jump between html/xml tags
+runtime macros/matchit.vim
+
 " end of ycx
