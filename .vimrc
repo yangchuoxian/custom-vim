@@ -440,16 +440,13 @@ let g:user_emmet_expandabbr_key='<C-y>'
 " let g:user_emmet_install_global=0
 " autocmd FileType html,css EmmetInstall
 
-" vim-commentary setup
-map <C-i> gcc
-
 " tagbar setup
 map <leader>c :TagbarToggle<cr>
 
 " ale setup
 let g:ale_completion_enabled=1
 
-" This one allows you to type '%' to jump between html/xml tags
+" This one allows you to jump between html/xml tags by typing '%'
 runtime macros/matchit.vim
 
 " end of ycx
