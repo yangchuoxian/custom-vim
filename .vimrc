@@ -394,7 +394,7 @@ endfunction
 " ycx!!!!!! specific setup starts here
 set number
 map <leader>q :q<cr>
-hi MatchParen cterm=none ctermbg=green ctermfg=white
+hi MatchParen cterm=none ctermbg=grey ctermfg=white
 
 highlight Cursor guifg=white guibg=black
 highlight iCursor guifg=white guibg=steelblue
@@ -418,6 +418,7 @@ Plug 'fatih/vim-go'
 Plug 'leafgarland/typescript-vim'
 Plug 'majutsushi/tagbar'
 Plug 'mzlogin/vim-markdown-toc'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 " NERDTree setup
@@ -446,7 +447,6 @@ map <leader>c :TagbarToggle<cr>
 " ale setup
 let g:ale_completion_enabled=1
 
-" This one allows you to jump between html/xml tags by typing '%'
 runtime macros/matchit.vim
 
 " end of ycx
