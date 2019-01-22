@@ -84,3 +84,6 @@ A plugin that shows class outlines and functions/variables of a file, type :Tagb
 
 ### [vim-airline](https://github.com/vim-airline/vim-airline)
 A plugin for statusline.
+
+### [youcompleteme](https://github.com/valloric/youcompleteme)1
+A plugin for autocompletion, check the website for installation guide

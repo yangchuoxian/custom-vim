@@ -419,6 +419,7 @@ Plug 'leafgarland/typescript-vim'
 Plug 'majutsushi/tagbar'
 Plug 'mzlogin/vim-markdown-toc'
 Plug 'vim-airline/vim-airline'
+Plug 'valloric/youcompleteme'
 call plug#end()
 
 " NERDTree setup
