@@ -420,6 +420,7 @@ Plug 'majutsushi/tagbar'
 Plug 'mzlogin/vim-markdown-toc'
 Plug 'vim-airline/vim-airline'
 Plug 'valloric/youcompleteme'
+Plug 'nvie/vim-flake8'
 call plug#end()
 
 " NERDTree setup
