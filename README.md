@@ -87,3 +87,8 @@ A plugin for statusline.
 
 ### [youcompleteme](https://github.com/valloric/youcompleteme)1
 A plugin for autocompletion, check the website for installation guide
+
+### [vim-flake8](https://github.com/nvie/vim-flake8)
+A python lint plugin.
+> Note: before using it, remember to install flake8 with pip globally:
+`pip install flake8`
