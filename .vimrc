@@ -230,15 +230,15 @@ map <leader>tn :tabnew
 map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove 
-map <leader>t1 :tabnext 1<cr>
-map <leader>t2 :tabnext 2<cr>
-map <leader>t3 :tabnext 3<cr>
-map <leader>t4 :tabnext 4<cr>
-map <leader>t5 :tabnext 5<cr>
-map <leader>t6 :tabnext 6<cr>
-map <leader>t7 :tabnext 7<cr>
-map <leader>t8 :tabnext 8<cr>
-map <leader>t9 :tabnext 9<cr>
+map <leader>1 :tabnext 1<cr>
+map <leader>2 :tabnext 2<cr>
+map <leader>3 :tabnext 3<cr>
+map <leader>4 :tabnext 4<cr>
+map <leader>5 :tabnext 5<cr>
+map <leader>6 :tabnext 6<cr>
+map <leader>7 :tabnext 7<cr>
+map <leader>8 :tabnext 8<cr>
+map <leader>9 :tabnext 9<cr>
 
 
 
@@ -392,9 +392,10 @@ function! VisualSelection(direction, extra_filter) range
 endfunction
 
 " ycx!!!!!! specific setup starts here
+hi CursorLine ctermbg=6 ctermfg=12
 set number
 map <leader>q :q<cr>
-hi MatchParen cterm=none ctermbg=grey ctermfg=white
+hi MatchParen cterm=none ctermbg=green ctermfg=white
 
 highlight Cursor guifg=white guibg=black
 highlight iCursor guifg=white guibg=steelblue
