@@ -448,7 +448,7 @@ let g:user_emmet_expandabbr_key='<C-e>'
 map <leader>c :TagbarToggle<cr>
 
 " ale setup
-let g:ale_completion_enabled=1
+let g:ale_completion_enabled=0
 
 runtime macros/matchit.vim
 
