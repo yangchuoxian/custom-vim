@@ -422,6 +422,7 @@ Plug 'mzlogin/vim-markdown-toc'
 Plug 'vim-airline/vim-airline'
 Plug 'valloric/youcompleteme'
 Plug 'nvie/vim-flake8'
+Plug 'ternjs/tern_for_vim'
 call plug#end()
 
 " NERDTree setup

@@ -92,3 +92,6 @@ A plugin for autocompletion, check the website for installation guide
 A python lint plugin.
 > Note: before using it, remember to install flake8 with pip globally:
 `pip install flake8`
+
+### [term](https://github.com/ternjs/tern_for_vim)
+A javascript editting support plugin that allows go to definition, the most useful feature is `:TernDef`
