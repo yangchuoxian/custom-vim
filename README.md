@@ -38,7 +38,7 @@ To preview markdown file in github style in terminal, installed with
 
 ### [vim-markdown-preview](https://github.com/JamshedVesuna/vim-markdown-preview)
 
-To fast preview mardown file from vim, hotkey: ctrl-p.
+To fast preview mardown file from vim, hotkey: ctrl-p
 
 ### [emmet-vim](https://github.com/mattn/emmet-vim)
 
@@ -95,3 +95,6 @@ A python lint plugin.
 
 ### [term](https://github.com/ternjs/tern_for_vim)
 A javascript editting support plugin that allows go to definition, the most useful feature is `:TernDef`
+
+### [vim-prettier](https://github.com/prettier/vim-prettier)
+A javascript/scss/css plugin that allows auto-formatting based on config rules by typing <mapleader> + p

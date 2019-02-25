@@ -423,6 +423,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'valloric/youcompleteme'
 Plug 'nvie/vim-flake8'
 Plug 'ternjs/tern_for_vim'
+Plug 'prettier/vim-prettier'
 call plug#end()
 
 " NERDTree setup
@@ -450,6 +451,12 @@ map <leader>c :TagbarToggle<cr>
 
 " ale setup
 let g:ale_completion_enabled=0
+
+" Prettier setup
+let g:prettier#config#print_width=100
+let g:prettier#config#tab_width=4
+let g:prettier#config#single_quote='false'
+let g:prettier#config#trailing_comma='none'
 
 runtime macros/matchit.vim
 
