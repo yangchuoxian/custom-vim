@@ -452,6 +452,9 @@ map <leader>c :TagbarToggle<cr>
 " ale setup
 let g:ale_completion_enabled=0
 
+" ctrlp setup
+let g:ctrlp_max_files=0
+
 " Prettier setup
 let g:prettier#config#print_width=100
 let g:prettier#config#tab_width=4
