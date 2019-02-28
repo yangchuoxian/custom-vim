@@ -394,6 +394,7 @@ endfunction
 " ycx!!!!!! specific setup starts here
 hi CursorLine ctermbg=6 ctermfg=12
 set number
+set modifiable
 map <leader>q :q<cr>
 hi MatchParen cterm=none ctermbg=green ctermfg=white
 
@@ -454,6 +455,7 @@ let g:ale_completion_enabled=0
 
 " ctrlp setup
 let g:ctrlp_max_files=0
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
 " Prettier setup
 let g:prettier#config#print_width=100
