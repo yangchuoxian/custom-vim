@@ -471,4 +471,11 @@ set foldnestmax=10
 set nofoldenable
 set foldlevel=2
 
+" use system clipboard
+if system('uname -s') == "Darwin\n"
+  set clipboard=unnamed "OSX
+else
+  set clipboard=unnamedplus "Linux
+endif
+
 " end of ycx
