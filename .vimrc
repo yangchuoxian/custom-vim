@@ -465,4 +465,10 @@ let g:prettier#config#trailing_comma='none'
 
 runtime macros/matchit.vim
 
+" folding setup
+set foldmethod=indent   
+set foldnestmax=10
+set nofoldenable
+set foldlevel=2
+
 " end of ycx
