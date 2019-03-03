@@ -45,7 +45,8 @@ To fast preview mardown file from vim, hotkey: ctrl-p
 The zen coding/emmet for vim, used <Tab> as the expanding key, used ctrl-y as expanding key.
 
 ### [ctrlp](https://github.com/ctrlpvim/ctrlp.vim)
-Fast open file, much like cmd+p in visual studio code or sublime text, uses `ctrl-p`,
+Fast open file, much like cmd+p in visual studio code or sublime text, uses `ctrl-p`.
+
 
 ### [vim-commentary](https://github.com/tpope/vim-commentary)
 Comment stuff out, uses `ctrl-i`.
@@ -81,6 +82,14 @@ Typescript syntax highlight
 ### [tagbar](https://github.com/majutsushi/tagbar)
 A plugin that shows class outlines and functions/variables of a file, type :TagbarToggle to toggle the window.
 >Note: under ubuntu, remember to install exuberant-ctags with `apt install exuberant-ctags`.
+
+
+In order for Javascript "Jump to definition" to work, after installing ctags, put the `.ctags` file inside home folder, then under your javascript project folder, type
+
+```shell
+ctags -R .
+```
+It will generate a `tags` file, then inside VIM, type "Ctrl ]" to jump to definition.
 
 ### [vim-airline](https://github.com/vim-airline/vim-airline)
 A plugin for statusline.
