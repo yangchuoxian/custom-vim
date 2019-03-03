@@ -98,3 +98,10 @@ A javascript editting support plugin that allows go to definition, the most usef
 
 ### [vim-prettier](https://github.com/prettier/vim-prettier)
 A javascript/scss/css plugin that allows auto-formatting based on config rules by typing <mapleader> + p
+
+## Personal Settings
+
+* Under MacOS/Linux, allows Vim use system clipboard
+* Enables code folding
+* Disables ALE code auto completion
+* For CtrlP, ignores `node_modules`, `DS_Store` and `git` folder/file
