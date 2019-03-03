@@ -450,12 +450,25 @@ let g:user_emmet_expandabbr_key='<C-e>'
 " tagbar setup
 map <leader>c :TagbarToggle<cr>
 
+let g:tagbar_type_javascript = {
+    \ 'ctagstype' : 'JavaScript',
+    \ 'kinds'     : [
+        \ 'o:objects',
+        \ 'f:functions',
+        \ 'a:arrays',
+        \ 's:strings'
+    \ ]
+\ }
+
 " ale setup
 let g:ale_completion_enabled=0
 
 " ctrlp setup
 let g:ctrlp_max_files=0
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+
+" ctags setup
+set tags=./tags,tags;$HOME
 
 " Prettier setup
 let g:prettier#config#print_width=100
