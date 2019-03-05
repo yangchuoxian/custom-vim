@@ -425,6 +425,7 @@ Plug 'valloric/youcompleteme'
 Plug 'nvie/vim-flake8'
 Plug 'ternjs/tern_for_vim'
 Plug 'prettier/vim-prettier'
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 " NERDTree setup
