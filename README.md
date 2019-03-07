@@ -111,6 +111,10 @@ A javascript/scss/css plugin that allows auto-formatting based on config rules b
 ## Personal Settings
 
 * Under MacOS/Linux, allows Vim use system clipboard
-* Enables code folding
+* Enables code folding, use 'za', 'zo' 'zc'
 * Disables ALE code auto completion
 * For CtrlP, ignores `node_modules`, `DS_Store` and `git` folder/file
+* To see recent search history: type 'q/'
+* To see recent commands history: type 'q:'
+* To go to previous command, type ':' then arrow key
+* To paste yanked content into command area, type ':', 'C-r' then '"'
