@@ -108,6 +108,12 @@ A javascript editting support plugin that allows go to definition, the most usef
 ### [vim-prettier](https://github.com/prettier/vim-prettier)
 A javascript/scss/css plugin that allows auto-formatting based on config rules by typing <mapleader> + p
 
+### [dart-lang/dart-vim-plugin](https://github.com/dart-lang/dart-vim-plugin)
+Dart plugin
+
+### [thosakwe/vim-flutter](https://github.com/thosakwe/vim-flutter)
+Flutter plugin
+
 ## Personal Settings
 
 * Under MacOS/Linux, allows Vim use system clipboard
