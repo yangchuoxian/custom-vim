@@ -426,6 +426,8 @@ Plug 'nvie/vim-flake8'
 Plug 'ternjs/tern_for_vim'
 Plug 'prettier/vim-prettier'
 Plug 'ryanoasis/vim-devicons'
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'thosakwe/vim-flutter'
 call plug#end()
 
 " NERDTree setup
