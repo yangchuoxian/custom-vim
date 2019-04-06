@@ -75,6 +75,9 @@ else
     set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store
 endif
 
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
+set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
+
 "Always show current position
 set ruler
 
@@ -497,7 +500,7 @@ endif
 " Ignore some folders and files for CtrlP indexing
 let g:ctrlp_custom_ignore = {
     \ 'dir':  '\.git$\|\.yardoc\|public$|log\|tmp$\|node_modules$',
-    \ 'file': '\.so$\|\.dat$|\.DS_Store$'
+    \ 'file': '\.(exe|so|dll)$\|\.dat$|\.DS_Store$'
 \ }
 
 " end of ycx
