@@ -483,6 +483,7 @@ let g:prettier#config#single_quote='false'
 let g:prettier#config#trailing_comma='none'
 
 runtime macros/matchit.vim
+noremap <leader>. :CtrlPTag<cr>
 
 " folding setup
 set foldmethod=indent   
