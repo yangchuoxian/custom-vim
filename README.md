@@ -124,3 +124,11 @@ Flutter plugin
 * To see recent commands history: type 'q:'
 * To go to previous command, type ':' then arrow key
 * To paste yanked content into command area, type ':', 'C-r' then '"'
+
+## Notes
+
+Macro is a very useful ways to repeat action combinations:
+
+* to start recording a macro, type `qq`
+* to quit recording type `q`
+* to repeat the macro, type `@q`
