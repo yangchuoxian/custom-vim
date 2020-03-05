@@ -132,3 +132,8 @@ Macro is a very useful ways to repeat action combinations:
 * to start recording a macro, type `qq`
 * to quit recording type `q`
 * to repeat the macro, type `@q`
+
+## knowledge
+
+* `~` switches character case(uppercase to lowercase and vice versa)
+* If you want to search something and have caret located at the end of the search place, type `/someThingToSearch/e`
