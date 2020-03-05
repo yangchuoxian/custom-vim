@@ -1,5 +1,33 @@
 # Vim setup/configuration
 
+- [Vim setup/configuration](#vim-setupconfiguration)
+  - [Navigation](#navigation)
+  - [List of plugins:](#list-of-plugins)
+    - [vim-plug](#vim-plug)
+    - [Goyo](#goyo)
+    - [NERDTree](#nerdtree)
+    - [Ack](#ack)
+    - [grip](#grip)
+    - [vim-markdown-preview](#vim-markdown-preview)
+    - [emmet-vim](#emmet-vim)
+    - [ctrlp](#ctrlp)
+    - [vim-commentary](#vim-commentary)
+    - [vim-fugitive](#vim-fugitive)
+    - [ale](#ale)
+    - [vim-go](#vim-go)
+    - [typescript-vim](#typescript-vim)
+    - [tagbar](#tagbar)
+    - [vim-airline](#vim-airline)
+    - [youcompleteme1](#youcompleteme1)
+    - [vim-flake8](#vim-flake8)
+    - [term](#term)
+    - [vim-prettier](#vim-prettier)
+    - [dart-lang/dart-vim-plugin](#dart-langdart-vim-plugin)
+    - [thosakwe/vim-flutter](#thosakwevim-flutter)
+  - [Personal Settings](#personal-settings)
+  - [Notes](#notes)
+  - [knowledge](#knowledge)
+
 The `.vimrc` setup is based on [https://github.com/amix/vimrc](https://github.com/amix/vimrc).
 
 ## Navigation
