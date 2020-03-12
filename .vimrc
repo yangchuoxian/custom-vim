@@ -492,10 +492,10 @@ set nofoldenable
 set foldlevel=2
 
 " use system clipboard
-if system('uname -s') == "Darwin\n"
-  set clipboard=unnamed "OSX
-else
+if system('uname -s') == "Linux\n"
   set clipboard=unnamedplus "Linux
+else
+  set clipboard=unnamed "OSX or Windows
 endif
 
 " Ignore some folders and files for CtrlP indexing
